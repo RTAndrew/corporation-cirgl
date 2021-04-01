@@ -1,0 +1,310 @@
+/********* FONT *********/
+/********* DELICIOUS *********/
+	@font-face { 
+		font-family: "Delicious"; 
+		src: url('../font/delicious/Delicious-Regular.otf') format('opentype'); 
+	}
+
+		@font-face { 
+			font-family: "DeliciousB"; 
+			src: url('../font/delicious/Delicious-Bold.otf') format('opentype'); 
+		}
+
+		@font-face { 
+			font-family: "DeliciousBI"; 
+			src: url('../font/delicious/Delicious-BoldItalic.otf') format('opentype'); 
+		}
+/********* UBUNTU *********/
+
+	@font-face { 
+		font-family: "Ubuntu"; 
+		src: url('../font/ubuntu/Ubuntu-R.ttf') format('truetype'); 
+	}
+
+
+
+
+
+
+
+
+
+
+/* GENERALIZACAO DE ESTILOS QUE AFETARA TODAS AS PAGINAS */
+
+
+br {
+	margin: 0;
+	visibility: hidden;
+	display: block;
+	content: "";
+}
+body{
+	background-color: #e6e9f0; /* #e6e9f0 */
+}
+
+p {
+	font-family: "Ubuntu";
+	font-weight: normal;
+	
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "DeliciousB";
+	font-weight: bold; 
+}
+
+
+.button.hollow.alert {
+    color:#E2495B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* 	NAVEGACAO ****************/
+.top-top{
+	border-bottom: 5:21 AM 10/7/20175:25 AM 10/7/2017;
+}
+
+	.top-top .auge{
+		height: auto;
+		margin: 0px;
+		padding: 0 40px 0 40px;
+		border: 0;
+		background-color: #222;
+	}
+
+	.top-top h5{		
+		font-family: DeliciousB;
+		padding: 0.2rem 0;
+		font-weight: normal;
+		color: rgba(255,255,255,0.3);
+	}
+
+
+.top-bar a {
+	background-color: transparent;
+}
+
+
+
+		/* AREA NAVEGACAO DESKTOP */
+			.nav-desktop{
+				background-color: #222;
+				height: 80px;
+				padding: 0;
+
+			}
+
+			.menu-text{
+				color: white;
+				line-height: 40px;
+				padding: 0 5px 0 40px;
+				background-color: #222;
+				
+
+			}
+			.nav-desktop .menu-desktop{
+				background-color: transparent;
+				line-height: 80px;
+				padding: 0 40px 0 5px;
+
+			}
+			.menu > li > a {
+				display: inline-block;
+				line-height: 80px;
+				padding-top: 0;
+				padding-bottom: 0;
+				color: white;
+			}
+
+					/***** ACTIVAR A PAGINA ACTUAL *****/
+						.menu .active{
+							display: inline-block;
+							line-height: 80px;
+							padding-top: 0;
+							padding-bottom: 0;
+							color: white;
+							background-color: #2c3e50;
+						}
+
+			.menu > li > a:hover {
+				background-color: black;
+				color: white;
+				background-color: #2c3e50;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* 	FOOTER ****************/
+footer {
+	text-align: left;
+	background-color: #333;
+	padding: 80px 0px;	
+}
+
+
+footer a span{
+	font-weight: normal;
+	color: #cbcbcb;
+}
+
+footer h5 {
+	font-size: 20px;
+	color: #cbcbcb; /* #C4BA3B */
+	font-weight: normal;
+
+}
+
+footer a{
+	display: block;
+	color: rgba(255,255,255,0.6);
+	font-size: 14px;
+	font-family: "Ubuntu";
+}
+
+		footer a:hover{
+			display: block;
+			color: rgba(255,255,255,0.8);
+		}
+
+
+footer hr {
+	margin: 10px 0px;
+	color: #E2495B;
+	background-color: #E2495B;
+	border-color: #E2495B;
+}
+
+footer .fa {
+	text-align: justify;
+	margin-right: 10px;
+}
+
+.wrap-footer {
+	vertical-align: center;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* 	DIV DE COPYRIGHT  ****************/
+
+.bottom-down{
+	background-color: #222; /*E2495B*/	
+	border-top: 2px solid #E2495B;
+
+	line-height: 45px;
+	color: rgba(255,255,255,0.3);
+}
+
+
+	.bottom-down p{
+		color: #E2495B;
+		padding: 0.7rem 1rem;
+		font-weight: normal;
+		color: rgba(255,255,255,0.3);
+	}
+
+	.bottom-down a {
+		color: white;
+		transition: 0.3s ease;
+	}  
+
+		.bottom-down a:hover {
+			color: #E2495B;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************* 	Media Query ****************/
+@media (max-width: 765px) {
+
+	.nav-desktop{
+		display: none;
+	}
+
+	
+
+}
+
+@media (max-width: 910px) {
+
+	.top-top {
+		
+		font-size: 1px;
+	}
+
+}
+
+
+@media (max-width: 850px) {
+
+	.top-top {
+		display: none;
+	}
+
+}
+

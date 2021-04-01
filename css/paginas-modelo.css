@@ -1,0 +1,108 @@
+/************* 	MAIN ****************/
+
+
+
+
+.main {
+	padding: 80px 0px;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+
+.esquerda a, p, .direita a, p {
+	padding-bottom: 5px;
+	padding-top: 10px;
+	
+}
+	.esquerda {
+		text-align: justify;
+
+	}
+
+		.chapter h3 {
+			color: #2c3e50;
+			text-align: left;
+		}
+
+	.direita {
+		height: 100%;
+		border-left: solid 1px #bccbde;
+		color: #2c3e50;
+		transition: 0.2s ease;
+		
+		
+		
+				
+
+	}		
+			.direita hr {
+				margin: 0;
+				padding: 0;
+				color: #E2495B;
+				height: 1px;
+				background-color: #E2495B;
+				border-color: #E2495B;
+			}
+
+			.direita h3{
+				text-align: center;
+			}
+
+			.direita-borda {
+				height: 100%;
+				text-align: justify;	
+				color: #2c3e50;
+				transition: 0.1s ease;
+				border-bottom: 1px solid #bccbde;
+				
+			}
+			.direita-borda:hover {
+				color: black;
+				border-left: 1px solid #E2495B;
+				
+			}
+
+			.direita .fa {
+				padding-right: 10px;
+			}
+
+
+
+
+
+			.border{
+				border-bottom: 1px solid #E2495B;
+				border-left: 1px solid #E2495B;
+				padding-bottom: 0px;
+				margin: 0;
+			}
+			.es {
+				margin: 0;
+				padding: 0;
+			}
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

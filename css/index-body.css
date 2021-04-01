@@ -1,0 +1,138 @@
+
+
+
+/************* 	MAIN ****************/
+.main {
+	padding: 80px 0px;
+	padding-bottom: 0px;
+}
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+
+	/************* 	HERO ****************/
+
+	.hero {
+		/* background-image: url("../img/tweed.png"); */
+		padding: 80px 0px;
+		background-color: #2c3e50;
+		color: white;
+		position: relative;
+		clear: both;
+
+	}
+		.hero:before, .hero:after
+		{
+		  z-index: -1;
+		  position: absolute;
+		  content: "";
+		  bottom: 15px;
+		  left: 10px;
+		  width: 50%;
+		  top: 80%;
+		  max-width:300px;
+		  background: #E2495B;
+		  -webkit-box-shadow: 0 23px 10px #666;
+		  -moz-box-shadow: 0 23px 10px #666;
+		  box-shadow: 0 21px 10px #666;
+		  -webkit-transform: rotate(-3deg);
+		  -moz-transform: rotate(-3deg);
+		  -o-transform: rotate(-3deg);
+		  -ms-transform: rotate(-3deg);
+		  transform: rotate(-3deg);
+		}
+		.hero:after
+		{
+		  -webkit-transform: rotate(3deg);
+		  -moz-transform: rotate(3deg);
+		  -o-transform: rotate(3deg);
+		  -ms-transform: rotate(3deg);
+		  transform: rotate(3deg);
+		  right: 10px;
+		  left: auto;
+		}
+
+
+
+/* TAMANHO DO ICON DE SETAS */
+
+.fa {
+	padding-bottom: 3px;
+	font-size: 20px;
+}
+
+
+
+/* TAMANHO DO ICON DE SETAS */
+
+.linknoticias {
+	transition: 0.7s ease;
+	color: black;
+}
+	
+	.linknoticias:hover{
+		color: #E2495B;
+	}
+
+	
+/* Efeito DA BORDA LARANJA */
+	.up {
+		text-decoration: none;
+	    display: block;
+	    border-top: 2.5px solid #bccbde;    
+	    transition: 0.2s ease;
+	    white-space: normal;
+		margin-bottom: 20px;	
+		padding-top: 10px; 
+	}
+
+
+	.up:hover {
+    	border-top: 2.5px solid #E2495B;
+	}
+			.ban {
+				padding-left: 40px;
+			}
+
+			.up .fa {
+				font-size: 30px;
+			}
+			/* FILTRO PRETO & BRANCO */
+
+				.bnw{
+
+					filter: grayscale(80%);
+				}
+
+
+	.imagem {
+		border-radius: 100;
+		margin-bottom:10px;
+
+	}
+	    .img-circle {
+        border-radius: 100%;
+    }	
+    		.imagem > h5 {
+				font-family: DeliciousBI;
+				font-size: 19px;
+				font-weight: normal;
+			}
+
+			.imagemp {
+				height: 233px;
+				width: 228px;
+			}
+
+			
+
+
+
+
+
+
